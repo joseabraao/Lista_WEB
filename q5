@@ -1,0 +1,25 @@
+var nome='Jose',sobrenome='Abraao',salario='1999';
+    
+    
+ function Empregado(nome,sobrenome,salario){
+    
+     this.nome=nome;
+     this.sobrenome=sobrenome;
+     this.salario_mensal=salario;
+     
+     function calcularSalarioAno(x){
+         x=x*12;
+         alert('Salario Anual: '+x);
+     }
+     
+     function dadosEmpregado(nome,sobrenome,salario){
+         
+         alert(nome+' '+sobrenome+',Salario:'+salario);
+         
+     }
+     
+     dadosEmpregado(nome,sobrenome,salario);
+     calcularSalarioAno(salario);
+ }
+    
+    Empregado(nome,sobrenome,salario);
