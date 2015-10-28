@@ -1,0 +1,33 @@
+
+   <!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="q3.css" /> 
+</head>
+<body>
+<h2>Dados:</h2>
+<form action="" method="get">
+	
+	<h3>Nome:</h3>
+	<input type="text" name="Nome" required pattern="[a-z\s]+$" /><br>
+	<h3>Sobrenome:</h3>
+	<input type="text" name="Sobrenome" required pattern="[a-z\s]+$" /><br>
+	<h3>Salario:</h3>
+	<input type="text" name="salario" required pattern="[0-9]+$" /><br>
+	<input type="submit" name="Submit">
+
+
+
+</form>
+
+
+
+<script type="text/javascript">
+
+
+
+	
+		</script>
+</body>
+</html>
