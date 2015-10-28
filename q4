@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Div em movimento</title>
+	<link rel="stylesheet" type="text/css" href="q3.css" /> 
+</head>
+<body>
+<div id="box"></div>
+
+
+
+<script type="text/javascript">
+
+		var left=100;
+
+			setInterval(function () {
+			var div = document.getElementById('box');
+			div.style.left=left+'px';
+			div.style.top=left+'px';
+			left=left+100;
+			//if (left>500) {left=0};
+			}, 10);
+
+	
+		</script>
+</body>
+</html>
